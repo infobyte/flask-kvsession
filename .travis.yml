@@ -1,7 +1,10 @@
 language: python
 env:
 - TOXENV=py27
-- TOXENV=py33
+- TOXENV=py35
+- TOXENV=py36
+- TOXENV=py37
+- TOXENV=py38
 install: pip install tox
 script: tox
 services:
